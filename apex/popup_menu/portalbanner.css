@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+
+/* -------------------------------- */
+/* for drop shadow */
+/* -------------------------------- */
+
+/*This is the parent cell of XUIDialogTable, the border of the dialog is determined 
+  by this style and the style of XUIDialogTable */
+
+.shadowDialogCell{
+   padding: 2px;
+   border: solid 1px #bbbbbb;
+	background-color: #eeeeee;
+}
+
+.shadowOffsetCellBottom
+{
+   width:4px;
+   height:6px;
+   padding:0px;
+   border-style:none;
+   background-color:transparent;
+}
+.shadowOffsetCellRight{
+   width:6px;
+   height:4px;
+   padding: 0px;
+   border-style:none;
+   background-color:transparent;
+}
+
+.shadowRight{
+   width:6px;
+   padding: 0px;
+   background: url(sdw_vert.png) repeat top right !important;
+   background: none;
+   font-size:1pt;
+}
+
+.shadowBottom
+{
+   height:6px;
+   padding: 0px;
+   background: url(sdw_horz.png) repeat bottom left !important;
+   background: none;
+   font-size:1pt;
+}
+
+.shadowCorner{
+   width:6px;
+   height:6px;
+   padding: 0px;
+   background: url(sdw_corner.png) no-repeat bottom right !important;
+   background: none;
+}
